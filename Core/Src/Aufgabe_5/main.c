@@ -84,8 +84,8 @@ int main(void)
     }
 
     /*
-     * Falls sich ein Werkstück auf dem Band befindet (wsCounter > 0)
-     * und kein Werkstück im Endbereich ist (endeBelegt == 0), dann
+     * Falls sich ein Werkstück auf dem Band befindet (CounterWerkstueck > 0)
+     * und kein Werkstück im Endbereich ist (BandendeBelegt == 0), dann
      * soll das Förderband vorwärts drehen
      */
     if (/*ToDo: Logik implementieren*/) {
