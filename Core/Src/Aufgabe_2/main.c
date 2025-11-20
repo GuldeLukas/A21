@@ -20,6 +20,7 @@ int main(void)
     // Förderband dreht vorwärts
     // ToDo: Pin A8 auf HIGH setzen
 
+
     // Das Programm wird um 1000 ms verzögert
     // ToDo: Delay von 1000 ms einfügen
 
