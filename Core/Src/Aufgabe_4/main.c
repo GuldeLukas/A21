@@ -33,7 +33,8 @@ int main(void)
   while (1)
   {
     // Prüfen, ob der Endlagesensor am Bandanfang aktiv ist
-    if (/*ToDo: Prüfen ob Pin A10 HIGH ist*/) {
+    /*ToDo: Prüfen ob Pin A10 HIGH ist*/
+    if (HAL_GPIO_ReadPin(Endlage_Bandanfang_GPIO_Port,Endlage_Bandanfang_Pin ) ==1) {
       /*
        * Prüfen ob anfangBelegt == 0 ist. Falls ja, dann handelt
        * es sich um eine steigende Flanke am Sensor.
