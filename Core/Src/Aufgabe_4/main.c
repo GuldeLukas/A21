@@ -17,6 +17,9 @@ volatile bool BandanfangBelegt = 0;
 // Flag, ob sich gerade ein Werkstück im Sensorbereich am Bandende befindet
 volatile bool BandendeBelegt = 0;
 
+#define  Endlage_Bandanfang_GPIO_Port GPIO_Pin_10
+
+#define Band_vor_GPIO_Port GPIOA
 
 int main(void)
 {
